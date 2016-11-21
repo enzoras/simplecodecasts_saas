@@ -13,12 +13,12 @@ group :production do
 end
 
 gem 'json'
-# use devise for user authorization, stripe for handling payments
 gem 'devise'
-gem 'stripe', '1.38.0'
 
-# use figaro to hide secret keys
-gem 'figaro', '1.0.0'
+# use stripe for handling payments
+gem 'stripe'
+gem 'figaro'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
